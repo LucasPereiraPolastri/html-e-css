@@ -1,0 +1,36 @@
+table {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table tr:nth-child(even){
+    background-color:  #d9f5d9;
+}
+table th{
+    background-color: #4cae32;
+    color: white;
+    padding: 5px;
+}
+.aproveitamento-alto{
+    background-color: #4cae32;
+}
+.aproveitamento-medio{
+    background-color: #ffdf80 ;
+}
+.aproveitamento-baixo{
+    background-color: #f08080;
+}
+table img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
